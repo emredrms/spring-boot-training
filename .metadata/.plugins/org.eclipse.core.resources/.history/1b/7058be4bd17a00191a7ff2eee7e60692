@@ -1,0 +1,21 @@
+package com.example.mockito.demomockito2;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SomeBusinessMockTest {
+
+	@Test
+	public void testFindTheGreatestFromAllData() {
+		
+		mock(DataService.class);
+		
+		SomeBusinessImpl businessImpl = new SomeBusinessImpl(new DataServiceStub());
+		int result = businessImpl.findTheGreatestFromAllData();
+		System.out.println("asd"+ result);
+		assertEquals(24, result);
+	}
+
+}
+

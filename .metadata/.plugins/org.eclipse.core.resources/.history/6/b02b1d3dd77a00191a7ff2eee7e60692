@@ -1,0 +1,16 @@
+package com.example.mockito.demomockito2;
+
+import static org.junit.Assert.*;
+
+import java.awt.List;
+
+import org.junit.Test;
+
+public class ListTest {
+
+	@Test
+	public void test() {
+		mock(List.class)
+	}
+
+}

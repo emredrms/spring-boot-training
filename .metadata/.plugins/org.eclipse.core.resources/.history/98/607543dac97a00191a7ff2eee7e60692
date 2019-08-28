@@ -1,0 +1,11 @@
+package com.example.mockito.demomockito2;
+
+public class SomeBusinessImpl implements DataService {
+
+	@Override
+	public int[] retrieveAllData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
